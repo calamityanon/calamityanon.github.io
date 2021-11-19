@@ -1,0 +1,30 @@
+baseURL = "https://calamityanon.github.io/"
+languageCode = "en-us"
+title = "calamityanon.github.io"
+theme = "hugo-theme-console"
+paginate = 5000 #frontpage pagination
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.extensions]
+      definitionList = true
+      footnote = true
+      linkify = true
+      strikethrough = true
+      table = true
+      taskList = true
+      typographer = true
+    [markup.goldmark.parser]
+      autoHeadingID = true
+      autoHeadingIDType = 'github'
+      [markup.goldmark.parser.attribute]
+        block = false
+        title = true
+    [markup.goldmark.renderer]
+      hardWraps = false
+      unsafe = false
+      xhtml = false
+
+[params.social]
+  rss            = true
+  github         = "https://github.com/calamityanon"

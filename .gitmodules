@@ -1,0 +1,9 @@
+[submodule "themes/hugo-theme-console"]
+	path = themes/hugo-theme-console
+	url = https://github.com/mrmierzejewski/hugo-theme-console.git
+[submodule "https:/github.com/calamityanon/blog.dev.repo"]
+	path = https:/github.com/calamityanon/blog.dev.repo
+	url = https://github.com/calamityanon/calamityanon.github.io.git
+[submodule "calamityanon.github.io"]
+	path = calamityanon.github.io
+	url = https://github.com/calamityanon/calamityanon.github.io.git
